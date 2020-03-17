@@ -1,0 +1,26 @@
+{
+  "name": "typescript-react-parcel",
+  "version": "1.0.0",
+  "description": "TypeScript/Parcel app template",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "parcel build src/index.html --experimental-scope-hoisting",
+    "start": "parcel src/index.html"
+  },
+  "author": "Ferruccio Barletta (ferruccio.barletta@gmail.com)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "@types/react-router-dom": "^5.1.3",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "rimraf": "^3.0.0",
+    "tslint": "^6.1.0",
+    "typescript": "^3.8.3"
+  }
+}
